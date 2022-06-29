@@ -1,4 +1,4 @@
-///COMMENT
+///GCD program
 use std::str::FromStr;
 use std::env;
 
@@ -11,7 +11,7 @@ fn main() {
     }
 
     if numbers.is_empty() {
-        eprintln!("Usage: gcd NUMBER ...");
+        eprintln!("Usage: GCD number ...");
         std::process::exit(1);
     }
 
@@ -42,4 +42,3 @@ fn test_gcd() {
                    3 * 7 * 11 * 13 * 19),
                    3 * 11);
 }
-
