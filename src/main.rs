@@ -20,7 +20,7 @@ fn main() {
         d = gcd(d, *m);
     }
 
-    println!("The greatest common devisor of {:?} is {}", numbers, d);
+    println!("The greatest common devisor of {:?} is ... {}", numbers, d);
 }
 
 fn gcd(mut n: u64, mut m: u64) -> u64 {
